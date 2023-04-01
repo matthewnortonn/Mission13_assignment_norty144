@@ -24,7 +24,7 @@ import Podcast from './pages/Podcast';
 function App() {
   let component;
   switch (window.location.pathname) {
-    case '/home':
+    case '/':
       component = <Home />;
       break;
     case '/movies':

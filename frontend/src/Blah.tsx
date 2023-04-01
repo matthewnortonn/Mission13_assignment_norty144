@@ -5,7 +5,7 @@ function TopBanner(props: any) {
   return (
     <>
       <div className="row">
-        <div className="col-2"></div>
+        <div className="col-4"></div>
         <div className="col align-self-center text-start">
           <h1 className={styles.h1}>{props.saying}</h1>
         </div>
@@ -15,7 +15,7 @@ function TopBanner(props: any) {
 
       <div className="row">
         <div className="col-2"> </div>
-        <section className="col align-self-center text-start">
+        <section className="border border-dark">
           <img src="./JoelHiltonHeadshot (1).jpg" alt="joel" />
         </section>
       </div>
@@ -23,8 +23,8 @@ function TopBanner(props: any) {
       <br />
 
       <div className="row">
-        <div className="col-2"></div>
-        <div className="col align-self-center text-start">
+        <div className="col-1"></div>
+        <div className="col align-self-center text-start text-decoration-underline">
           <h3 className={styles.h1}>{props.saying1}</h3>
         </div>
       </div>

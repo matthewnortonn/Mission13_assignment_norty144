@@ -6,7 +6,7 @@ function Navbar() {
       </a>
       <ul>
         <li className="active">
-          <a href="/home">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="active">
           <a href="/podcast">Podcast</a>
