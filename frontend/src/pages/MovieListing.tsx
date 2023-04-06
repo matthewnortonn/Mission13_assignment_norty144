@@ -1,7 +1,8 @@
-import MovieList from '../Movies';
+//import MovieList from '../Movies';
+import NewMovieList from '../Movies/NewMovieList';
 
 function MovieListing() {
-  return <MovieList />;
+  return <NewMovieList />;
 }
 
 export default MovieListing;
